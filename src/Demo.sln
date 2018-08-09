@@ -1,0 +1,85 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2047
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo", "Demo\Demo.csproj", "{8CE0A1AA-C503-4F73-947E-24C4A2E98A01}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MvcDemo", "MvcDemo\MvcDemo.csproj", "{3E899B38-941C-434F-8079-EBC83840BDF3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo.Extensions", "Demo.Extensions\Demo.Extensions.csproj", "{6459531C-BD80-4417-9066-E1F129AEC4DA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mozlite.Core", "..\mozlite\Mozlite.Core\Mozlite.Core.csproj", "{104B9CD4-250C-4AFE-82EB-33680D69F494}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mozlite.Data", "..\mozlite\Mozlite.Data\Mozlite.Data.csproj", "{7E2FE50C-E554-42BC-BE3B-E26572D199FD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mozlite.Data.SqlServer", "..\mozlite\Mozlite.Data.SqlServer\Mozlite.Data.SqlServer.csproj", "{B8A4E6C1-5AC7-48CD-A056-C830C7DFFEC5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mozlite.Extensions", "..\mozlite\Mozlite.Extensions\Mozlite.Extensions.csproj", "{7964A2F7-7C91-4BC4-A327-D713CB14BF31}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mozlite.Extensions.Documents", "..\mozlite\Mozlite.Extensions.Documents\Mozlite.Extensions.Documents.csproj", "{643FCE72-F107-49D6-9C5A-56F101ED2FB4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mozlite.Extensions.Messages", "..\mozlite\Mozlite.Extensions.Messages\Mozlite.Extensions.Messages.csproj", "{1898897C-700D-48F1-8072-B1424623890F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mozlite.Extensions.Storages", "..\mozlite\Mozlite.Extensions.Storages\Mozlite.Extensions.Storages.csproj", "{C2BED7FB-749A-43F2-9483-F0871C913326}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mozlite.Mvc", "..\mozlite\Mozlite.Mvc\Mozlite.Mvc.csproj", "{28907B66-3F0A-488E-B5C2-B03E74BD32D6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8CE0A1AA-C503-4F73-947E-24C4A2E98A01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CE0A1AA-C503-4F73-947E-24C4A2E98A01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CE0A1AA-C503-4F73-947E-24C4A2E98A01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CE0A1AA-C503-4F73-947E-24C4A2E98A01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E899B38-941C-434F-8079-EBC83840BDF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E899B38-941C-434F-8079-EBC83840BDF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E899B38-941C-434F-8079-EBC83840BDF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E899B38-941C-434F-8079-EBC83840BDF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6459531C-BD80-4417-9066-E1F129AEC4DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6459531C-BD80-4417-9066-E1F129AEC4DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6459531C-BD80-4417-9066-E1F129AEC4DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6459531C-BD80-4417-9066-E1F129AEC4DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{104B9CD4-250C-4AFE-82EB-33680D69F494}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{104B9CD4-250C-4AFE-82EB-33680D69F494}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{104B9CD4-250C-4AFE-82EB-33680D69F494}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{104B9CD4-250C-4AFE-82EB-33680D69F494}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E2FE50C-E554-42BC-BE3B-E26572D199FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E2FE50C-E554-42BC-BE3B-E26572D199FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E2FE50C-E554-42BC-BE3B-E26572D199FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E2FE50C-E554-42BC-BE3B-E26572D199FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8A4E6C1-5AC7-48CD-A056-C830C7DFFEC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8A4E6C1-5AC7-48CD-A056-C830C7DFFEC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8A4E6C1-5AC7-48CD-A056-C830C7DFFEC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8A4E6C1-5AC7-48CD-A056-C830C7DFFEC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7964A2F7-7C91-4BC4-A327-D713CB14BF31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7964A2F7-7C91-4BC4-A327-D713CB14BF31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7964A2F7-7C91-4BC4-A327-D713CB14BF31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7964A2F7-7C91-4BC4-A327-D713CB14BF31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{643FCE72-F107-49D6-9C5A-56F101ED2FB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{643FCE72-F107-49D6-9C5A-56F101ED2FB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{643FCE72-F107-49D6-9C5A-56F101ED2FB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{643FCE72-F107-49D6-9C5A-56F101ED2FB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1898897C-700D-48F1-8072-B1424623890F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1898897C-700D-48F1-8072-B1424623890F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1898897C-700D-48F1-8072-B1424623890F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1898897C-700D-48F1-8072-B1424623890F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2BED7FB-749A-43F2-9483-F0871C913326}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2BED7FB-749A-43F2-9483-F0871C913326}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2BED7FB-749A-43F2-9483-F0871C913326}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2BED7FB-749A-43F2-9483-F0871C913326}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28907B66-3F0A-488E-B5C2-B03E74BD32D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28907B66-3F0A-488E-B5C2-B03E74BD32D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28907B66-3F0A-488E-B5C2-B03E74BD32D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28907B66-3F0A-488E-B5C2-B03E74BD32D6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B5B3C221-1777-421D-820A-976F7FD7B6E4}
+	EndGlobalSection
+EndGlobal
