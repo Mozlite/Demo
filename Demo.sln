@@ -3,27 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27703.2047
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo", "Demo\Demo.csproj", "{8CE0A1AA-C503-4F73-947E-24C4A2E98A01}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo", "src\Demo\Demo.csproj", "{8CE0A1AA-C503-4F73-947E-24C4A2E98A01}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MvcDemo", "MvcDemo\MvcDemo.csproj", "{3E899B38-941C-434F-8079-EBC83840BDF3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MvcDemo", "src\MvcDemo\MvcDemo.csproj", "{3E899B38-941C-434F-8079-EBC83840BDF3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo.Extensions", "Demo.Extensions\Demo.Extensions.csproj", "{6459531C-BD80-4417-9066-E1F129AEC4DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo.Extensions", "src\Demo.Extensions\Demo.Extensions.csproj", "{6459531C-BD80-4417-9066-E1F129AEC4DA}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mozlite.Core", "..\mozlite\Mozlite.Core\Mozlite.Core.csproj", "{104B9CD4-250C-4AFE-82EB-33680D69F494}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mozlite.Core", "mozlite\Mozlite.Core\Mozlite.Core.csproj", "{104B9CD4-250C-4AFE-82EB-33680D69F494}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mozlite.Data", "..\mozlite\Mozlite.Data\Mozlite.Data.csproj", "{7E2FE50C-E554-42BC-BE3B-E26572D199FD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mozlite.Data", "mozlite\Mozlite.Data\Mozlite.Data.csproj", "{7E2FE50C-E554-42BC-BE3B-E26572D199FD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mozlite.Data.SqlServer", "..\mozlite\Mozlite.Data.SqlServer\Mozlite.Data.SqlServer.csproj", "{B8A4E6C1-5AC7-48CD-A056-C830C7DFFEC5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mozlite.Data.SqlServer", "mozlite\Mozlite.Data.SqlServer\Mozlite.Data.SqlServer.csproj", "{B8A4E6C1-5AC7-48CD-A056-C830C7DFFEC5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mozlite.Extensions", "..\mozlite\Mozlite.Extensions\Mozlite.Extensions.csproj", "{7964A2F7-7C91-4BC4-A327-D713CB14BF31}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mozlite.Extensions", "mozlite\Mozlite.Extensions\Mozlite.Extensions.csproj", "{7964A2F7-7C91-4BC4-A327-D713CB14BF31}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mozlite.Extensions.Documents", "..\mozlite\Mozlite.Extensions.Documents\Mozlite.Extensions.Documents.csproj", "{643FCE72-F107-49D6-9C5A-56F101ED2FB4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mozlite.Extensions.Documents", "mozlite\Mozlite.Extensions.Documents\Mozlite.Extensions.Documents.csproj", "{643FCE72-F107-49D6-9C5A-56F101ED2FB4}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mozlite.Extensions.Messages", "..\mozlite\Mozlite.Extensions.Messages\Mozlite.Extensions.Messages.csproj", "{1898897C-700D-48F1-8072-B1424623890F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mozlite.Extensions.Messages", "mozlite\Mozlite.Extensions.Messages\Mozlite.Extensions.Messages.csproj", "{1898897C-700D-48F1-8072-B1424623890F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mozlite.Extensions.Storages", "..\mozlite\Mozlite.Extensions.Storages\Mozlite.Extensions.Storages.csproj", "{C2BED7FB-749A-43F2-9483-F0871C913326}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mozlite.Extensions.Storages", "mozlite\Mozlite.Extensions.Storages\Mozlite.Extensions.Storages.csproj", "{C2BED7FB-749A-43F2-9483-F0871C913326}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mozlite.Mvc", "..\mozlite\Mozlite.Mvc\Mozlite.Mvc.csproj", "{28907B66-3F0A-488E-B5C2-B03E74BD32D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mozlite.Mvc", "mozlite\Mozlite.Mvc\Mozlite.Mvc.csproj", "{28907B66-3F0A-488E-B5C2-B03E74BD32D6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{A140A965-B404-4897-824A-994DD972675F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.Extensions.Tests", "tests\Demo.Extensions.Tests\Demo.Extensions.Tests.csproj", "{29B3E0BF-50FE-4A55-BDAA-6F16726BAC76}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,9 +79,16 @@ Global
 		{28907B66-3F0A-488E-B5C2-B03E74BD32D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{28907B66-3F0A-488E-B5C2-B03E74BD32D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{28907B66-3F0A-488E-B5C2-B03E74BD32D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29B3E0BF-50FE-4A55-BDAA-6F16726BAC76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29B3E0BF-50FE-4A55-BDAA-6F16726BAC76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29B3E0BF-50FE-4A55-BDAA-6F16726BAC76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29B3E0BF-50FE-4A55-BDAA-6F16726BAC76}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{29B3E0BF-50FE-4A55-BDAA-6F16726BAC76} = {A140A965-B404-4897-824A-994DD972675F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B5B3C221-1777-421D-820A-976F7FD7B6E4}
