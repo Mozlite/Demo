@@ -11,10 +11,8 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\mozlite\Mozlite.Core\Mozlite.Core.csproj" />
-    <ProjectReference Include="..\..\mozlite\Mozlite.Data.SqlServer\Mozlite.Data.SqlServer.csproj" />
+    <ProjectReference Include="..\..\mozlite\Mozlite.Data.MySql\Mozlite.Data.MySql.csproj" />
     <ProjectReference Include="..\..\mozlite\Mozlite.Data\Mozlite.Data.csproj" />
-    <ProjectReference Include="..\..\mozlite\Mozlite.Extensions.Documents\Mozlite.Extensions.Documents.csproj" />
-    <ProjectReference Include="..\..\mozlite\Mozlite.Extensions.Messages\Mozlite.Extensions.Messages.csproj" />
     <ProjectReference Include="..\..\mozlite\Mozlite.Extensions.Storages\Mozlite.Extensions.Storages.csproj" />
     <ProjectReference Include="..\..\mozlite\Mozlite.Extensions\Mozlite.Extensions.csproj" />
     <ProjectReference Include="..\..\mozlite\Mozlite.Mvc\Mozlite.Mvc.csproj" />
